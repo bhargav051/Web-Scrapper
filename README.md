@@ -1,26 +1,23 @@
 ## README/ How to run
 
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
+step 1 : install all the dependencies.
+step 2 : create the database in PostgreSQL.
+step 3 : check environment variables and credentials for the database
    
-2. **Install Dependencies**:
+1. **Install Dependencies**:
    ```bash
    pip install psycopg2 requests beautifulsoup4 python-dotenv
    ```
    
-3. **Run the Scraping Script**:
+2. **Run the Scraping Script**:
    ```bash
-   python scrape_data.py
+   python scrape.py
    ```
    
-4. **Run the CSV Generation Script**:
+3. **Run the CSV Generation Script**:
    ```bash
-   python generate_csv.py
+   python sacpe.py
    ```
    
-5. **Access the PostgreSQL Database**:
+4. **Access the PostgreSQL Database**:
    - Ensure PostgreSQL is running and accessible.
-   - Check the `config.py` file for database connection settings
